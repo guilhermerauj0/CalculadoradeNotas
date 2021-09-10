@@ -12,21 +12,21 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:layout_margin="30dp"
-        android:hint="Note 01" />
+        android:hint="@string/Note01" />
 
     <EditText
         android:id="@+id/note02_edt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
-        android:hint="Note 02" />
+        android:hint="@string/Note02" />
 
     <EditText
         android:id="@+id/foul_edt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
-        android:hint="Fouls" />
+        android:hint="@string/Fouls" />
 
     <Button
         android:id="@+id/calculate_btn"
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
         android:backgroundTint="@color/black"
-        android:text="Calculate" />
+        android:text="@string/Calculate" />
 
 
 </LinearLayout>
